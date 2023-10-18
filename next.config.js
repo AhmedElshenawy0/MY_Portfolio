@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  distDir: "dist",
   images: {
-    domains: ["images.pexels.com", "miro.medium.com", "www.cnet.com"],
+    unoptimized: true,
   },
 };
 
