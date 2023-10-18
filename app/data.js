@@ -4,7 +4,7 @@ export const data = [
     title: "Little Lemon project",
     liveUrl: " https://ahmedelshenawy0.github.io/Little-Lemon/",
     githubUrl: "https://github.com/AhmedElshenawy0/Little-Lemon",
-    image: "/images/lemon.png",
+    image: "/images/pro.png",
     source: "/images/qqq.PNG",
     skills: "HTML5 - Css3 - JavaScript - React .",
     desc: "A simple landing page",
