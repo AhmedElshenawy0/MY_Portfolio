@@ -1,0 +1,25 @@
+.container {
+  padding: 10px;
+  background-color: #ffffff98;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  transition: 0.5s;
+  z-index: 9;
+  position: relative;
+
+  cursor: pointer;
+}
+.container:hover {
+  /* border: 1px solid white; */
+  box-shadow: 0 0 5px white;
+}
+
+.sun {
+  font-size: 17px;
+}
+.moon {
+  font-size: 17px;
+}

@@ -1,0 +1,46 @@
+.Follow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  padding: 10px 0;
+  z-index: 9;
+  position: relative;
+}
+.Follow h3 {
+  font-size: 35px;
+  font-weight: 400;
+  padding: 20px 0;
+  border-top: 2px solid rgba(128, 128, 128, 0.438);
+  width: 100%;
+  text-align: center;
+}
+.social_icon {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+.Follow a {
+  padding: 10px;
+  background-color: #4e677e;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.Follow a:hover {
+  background-color: rgb(24, 47, 68);
+}
+.icon {
+  color: rgba(255, 255, 255, 0.863);
+  font-size: 35px;
+}
+.Follow p {
+  padding: 10px 170px;
+  word-spacing: 3px;
+  font-size: 15px;
+}
+@media (max-width: 767px) {
+  .Follow p {
+    padding: 10px;
+  }
+}
