@@ -41,7 +41,7 @@ export default function Navbar() {
       <div className={styles.menu_mode}>
         <MenuIcon
           onClick={() => setMenu((prev) => !prev)}
-          className={styles.menu}
+          className={styles.bar}
         />
         <Mode />
       </div>

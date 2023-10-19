@@ -19,8 +19,9 @@
   gap: 20px;
 }
 .content_container p {
-  text-align: justify;
-  line-height: 24px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 1px;
 }
 .skills_container {
   padding: 10px;
@@ -30,7 +31,7 @@
   align-items: center;
   gap: 10px;
   border-radius: 10px;
-  width: 700px;
+  width: 900px;
   box-shadow: 0 0 5px black;
 }
 .skills {
@@ -69,5 +70,10 @@
     border-radius: 10px;
     width: 100%;
     box-shadow: 0 0 5px black;
+  }
+  .content_container p {
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
   }
 }

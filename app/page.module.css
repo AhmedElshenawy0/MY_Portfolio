@@ -4,6 +4,7 @@
   align-items: center;
   margin-top: -50px;
   z-index: 9;
+  height: 100vh;
 }
 .container a {
   background-color: #ffffff98;
@@ -19,7 +20,7 @@
   transition: 0.5s;
   cursor: pointer;
   font-size: 17px;
-  box-shadow: 0 0 10px ;
+  box-shadow: 0 0 10px;
   z-index: 9;
   border: none;
 }
@@ -41,9 +42,13 @@
   padding: 10px 0 40px 0;
   font-size: 18px;
   letter-spacing: 1px;
+  margin-top: 10px;
 }
 .container h3 {
   letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .container h3 span {
   font-size: 30px;

@@ -8,10 +8,10 @@
   width: 80%;
   z-index: 9;
   position: relative;
-
+  height: calc(100vh - 100px);
 }
 .info {
-  background-color: rgba(18, 52, 87, 1);
+  background-color: rgb(18 32 69);
   padding: 20px;
   border-radius: 5px;
   flex: 2;
@@ -59,7 +59,7 @@
   outline: none;
 }
 .submit {
-  background-color: rgba(18, 52, 87, 1);
+  background-color: rgb(18 32 69);
   color: white;
   cursor: pointer;
   outline: none;
@@ -71,8 +71,7 @@
 }
 
 .submit:hover {
-  background-color: rgba(18, 52, 87, 1);
-  color: white;
+  transform: scale(1.1);
 }
 .tele {
   display: flex;

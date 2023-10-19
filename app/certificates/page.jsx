@@ -16,7 +16,7 @@ export default function Certificates() {
     <div className={styles.container}>
      
       <div className={styles.certificate}>
-        <Image src="/images/meta.png" width={350} height={250} alt="CV" />
+        <Image src="/images/meta.jpg" width={350} height={250} alt="CV" />
         <div className={styles.right_side}>
           <h3>
             <BsMeta />

@@ -62,7 +62,7 @@
 .iconA {
   border-radius: 5px;
 }
-.menu {
+.bar {
   display: none;
   font-size: 30px;
 }
@@ -95,7 +95,7 @@
     color: white;
     border-radius: 10px;
   }
-  .menu {
+  .bar {
     display: inline-block;
     cursor: pointer;
   }

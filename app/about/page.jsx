@@ -20,7 +20,7 @@ export default function About() {
         <div className={styles.content_container}>
           <p>
             My name is Ahmed Elshenawy,a junior Mern stack developer who uses
-            coding to operate on both frontend and back-end systems.I am an
+            coding to operate on both frontend and back-end systems. I am an
             ambitious and hardworking person,able to work with a variety of
             technology.Ability to diagnose problems and develop solutions.
           </p>
