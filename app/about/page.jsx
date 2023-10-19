@@ -73,7 +73,16 @@ export default function About() {
               width={30}
               height={30}
             />
-            <p>React</p>
+            <p>React.js</p>
+          </div>
+          <div className={styles.skills}>
+            <Image
+              src="/images/nextjs.png"
+              alt="icon"
+              width={30}
+              height={30}
+            />
+            <p>Next.js</p>
           </div>
           <div className={styles.skills}>
             <Image src="/images/redux.png" alt="icon" width={30} height={30} />
@@ -86,7 +95,7 @@ export default function About() {
               width={30}
               height={30}
             />
-            <p>Nodejs</p>
+            <p>Node.js</p>
           </div>
           <div className={styles.skills}>
             <Image
@@ -95,7 +104,7 @@ export default function About() {
               width={30}
               height={30}
             />
-            <p>Expressjs</p>
+            <p>Express.js</p>
           </div>
           <div className={styles.skills}>
             <Image
