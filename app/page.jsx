@@ -22,7 +22,7 @@ export default function Home() {
           {typeEffect}
           <Cursor />
         </p>
-        <a href="/newCV.pdf" className={styles.download}>
+        <a href="/AhmedCV.pdf" className={styles.download}>
           Download My CV <FaCloudDownloadAlt />
         </a>
       </div>
