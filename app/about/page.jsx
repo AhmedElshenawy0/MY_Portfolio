@@ -55,12 +55,12 @@ export default function About() {
           </div>
           <div className={styles.skills}>
             <Image
-              src="/images/sass.png"
+              src="/images/Tailwind.png"
               alt="icon"
               width={30}
               height={30}
             />
-            <p>Sass</p>
+            <p>Tailwind CSS</p>
           </div>
           <div className={styles.skills}>
             <Image src="/images/java.png" alt="icon" width={30} height={30} />
