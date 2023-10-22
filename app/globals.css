@@ -17,8 +17,8 @@ body {
 }
 
 .dark {
-  /* background-color: rgb(29, 36, 56); */
-  background-color: rgb(17 28 58);
+  /* background-color: rgb(17 28 58); */
+  background-color: #181e2a;
   padding: 0 100px;
   color: white;
   /* height: 100vh; */
